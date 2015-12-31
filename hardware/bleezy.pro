@@ -1,4 +1,4 @@
-update=Thu 24 Dec 2015 04:01:50 AM EST
+update=Wed 30 Dec 2015 06:01:27 AM EST
 version=1
 last_client=kicad
 [cvpcb]
@@ -109,3 +109,4 @@ LibName74=video
 LibName75=Xicor
 LibName76=xilinx
 LibName77=Zilog
+LibName78=/home/mangokid/openfet-kicadlibs/component/nrf51822
