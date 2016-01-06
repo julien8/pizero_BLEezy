@@ -1,4 +1,4 @@
-update=Wed 30 Dec 2015 06:01:27 AM EST
+update=Thu 31 Dec 2015 11:59:54 PM EST
 version=1
 last_client=kicad
 [cvpcb]
@@ -110,3 +110,10 @@ LibName75=Xicor
 LibName76=xilinx
 LibName77=Zilog
 LibName78=/home/mangokid/openfet-kicadlibs/component/nrf51822
+LibName79=/home/mangokid/KiCad-Schematic-Symbol-Libraries/xilinx7
+LibName80=/home/mangokid/KiCad-Schematic-Symbol-Libraries/xilinx6v
+LibName81=/home/mangokid/KiCad-Schematic-Symbol-Libraries/xilinx6s
+LibName82=/home/mangokid/KiCad-Schematic-Symbol-Libraries/xess
+LibName83=/home/mangokid/KiCad-Schematic-Symbol-Libraries/Lattice_iCE_FPGA
+LibName84=/home/mangokid/KiCad-Schematic-Symbol-Libraries/Cypress_PSoC
+LibName85=/home/mangokid/KiCad-Schematic-Symbol-Libraries/Cypress_cy8c5xlp

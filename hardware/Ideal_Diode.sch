@@ -77,6 +77,13 @@ LIBS:Xicor
 LIBS:xilinx
 LIBS:Zilog
 LIBS:nrf51822
+LIBS:xilinx7
+LIBS:xilinx6v
+LIBS:xilinx6s
+LIBS:xess
+LIBS:Lattice_iCE_FPGA
+LIBS:Cypress_PSoC
+LIBS:Cypress_cy8c5xlp
 LIBS:bleezy-cache
 EELAYER 25 0
 EELAYER END

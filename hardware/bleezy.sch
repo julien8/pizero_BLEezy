@@ -77,17 +77,24 @@ LIBS:Xicor
 LIBS:xilinx
 LIBS:Zilog
 LIBS:nrf51822
+LIBS:xilinx7
+LIBS:xilinx6v
+LIBS:xilinx6s
+LIBS:xess
+LIBS:Lattice_iCE_FPGA
+LIBS:Cypress_PSoC
+LIBS:Cypress_cy8c5xlp
 LIBS:bleezy-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "BLEezy"
+Date "2016-01-06"
+Rev "V0.1"
+Comp "OpenFET"
+Comment1 "Author: Julien M."
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -278,7 +285,6 @@ F 3 "" H 8200 4650 50  0000 C CNN
 	1    8200 4650
 	1    0    0    -1  
 $EndComp
-NoConn ~ 8100 4450
 $Comp
 L Crystal_Small Y2
 U 1 1 56847734
@@ -423,17 +429,6 @@ F 3 "" H 5350 3300 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_01X04 P4
-U 1 1 5684B28F
-P 5350 4100
-F 0 "P4" H 5350 4350 50  0000 C CNN
-F 1 "Digital Con 1" V 5450 4100 50  0000 C CNN
-F 2 "w_pin_strip:pin_strip_4" H 5350 4100 50  0001 C CNN
-F 3 "" H 5350 4100 50  0000 C CNN
-	1    5350 4100
-	-1   0    0    1   
-$EndComp
-$Comp
 L CONN_01X04 P5
 U 1 1 5684BC9A
 P 5400 5850
@@ -483,7 +478,7 @@ U 1 1 5684D4B1
 P 1900 6700
 F 0 "U1" H 1650 6900 50  0000 C CNN
 F 1 "LD3985M33R" H 2100 6900 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 1900 6800 50  0000 C CIN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 1900 6800 50  0001 C CIN
 F 3 "" H 1900 6700 50  0000 C CNN
 	1    1900 6700
 	1    0    0    -1  
@@ -584,6 +579,7 @@ F 0 "D1" H 3750 6550 50  0000 C CNN
 F 1 "D_Schottky_x2_KCom_KAA" H 3700 6750 50  0000 C CNN
 F 2 "w_smd_trans:sot23" H 3700 6650 50  0001 C CNN
 F 3 "" H 3700 6650 50  0000 C CNN
+F 4 "726-BAS7005E6327XT" H 3700 6650 60  0001 C CNN "Mouser Part No."
 	1    3700 6650
 	-1   0    0    1   
 $EndComp
@@ -885,14 +881,6 @@ Wire Wire Line
 	5650 3850 5650 3650
 Wire Wire Line
 	5650 3650 5550 3650
-Wire Wire Line
-	5550 3950 6150 3950
-Wire Wire Line
-	5550 4050 6150 4050
-Wire Wire Line
-	5550 4150 6150 4150
-Wire Wire Line
-	5550 4250 6150 4250
 Wire Wire Line
 	5600 6000 5700 6000
 Wire Wire Line
@@ -1227,4 +1215,9 @@ Wire Wire Line
 Wire Wire Line
 	10400 4900 10400 4850
 Connection ~ 10000 4900
+Wire Wire Line
+	8100 4450 8200 4450
+Connection ~ 8200 4450
+Text Notes 6950 6400 0    60   ~ 0
+Note: This device is designed without any type of warrenty or garuntee. This\ndevice has no radio conformance cerification for any country. 
 $EndSCHEMATC
