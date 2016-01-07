@@ -1220,4 +1220,6 @@ Wire Wire Line
 Connection ~ 8200 4450
 Text Notes 6950 6400 0    60   ~ 0
 Note: This device is designed without any type of warrenty or garuntee. This\ndevice has no radio conformance cerification for any country. 
+Text Notes 6950 6000 0    60   ~ 0
+To Do:\n- setup the traces for better PCB routing\n- add gaurd ring to the crystal\n- add the DC/DC to the nRF module\n- make sheet bigger
 $EndSCHEMATC
