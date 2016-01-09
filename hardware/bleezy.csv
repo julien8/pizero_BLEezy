@@ -1,0 +1,42 @@
+Reference, Value, Footprint, Datasheet, Mouser Part No.
+P3,Raspberry_Pi_+_Conn,w_conn_strip:vasch_strip_20x2,,517-929975-01-20
+IC1,NRF51822,w_smd_qfn:pvqfn-n48,,949-NRF51822-QFAA-R7
+P6,TST,openfet-footprint:Ant_24ghz_small,,
+C6,47nf,w_smd_cap:c_0402,,81-GRM15B11A473KA01D
+C5,100nf,w_smd_cap:c_0402,,81-GRM155R71C104KA88
+P1,Analog Header,w_pin_strip:pin_strip_8,,
+Y2,16Mhz,w_crystal:crystal_fa128,,581-CX2520DB16DGEJCC
+Y1,32Khz,w_crystal:crystal_tc-38_horiz,,815-AB38T-32.768KHZ
+C4,13pf,w_smd_cap:c_0402,,81-GRM1555C1H130JA1D
+C7,13pf,w_smd_cap:c_0402,,81-GRM1555C1H130JA1D
+C9,8pf,w_smd_cap:c_0402,,81-GRM1555C1H8R0DA1D
+C10,8pf,w_smd_cap:c_0402,,81-GRM1555C1H8R0DA1D
+P2,Digital Con 2,w_pin_strip:pin_strip_8,,
+P5,Power Con,w_pin_strip:pin_strip_4,,
+U1,LD3985M33R,TO_SOT_Packages_SMD:SOT-23-5,,511-LD3985M33R
+C1,2.2uf,w_smd_cap:c_0402,,581-04026D225KAT2A
+C2,1.0uf,w_smd_cap:c_0603,,581-06036D105K
+BT1,Coin Cell,openfet-footprint:keystone_3003,,534-3003
+C3,10uf,w_smd_cap:c_tant_B,,581-TAJB106K006R
+D1,D_Schottky_x2_KCom_KAA,w_smd_trans:sot23,,726-BAS7005E6327XT
+R1,10k,w_smd_resistors:r_0402,,754-RR0510P-103D
+R2,10k,w_smd_resistors:r_0402,,754-RR0510P-103D
+D2,Blue 470nm,w_smd_leds:Led_0603,,859-LTST-C191TBKT-5A
+R3,110,w_smd_resistors:r_0402,,754-RR0510P-111D
+C8,2.2nf,w_smd_cap:c_0402,,GRM155R71H222KA01D
+C11,2.2pf,w_smd_cap:c_0402,,81-GRM1555C1H2R2BA1D
+L3,3.3nH,w_smd_inductors:inductor_smd_0402,,
+C12,1pf,w_smd_cap:c_0402,,GRM1555C1H1R0CA01D
+C13,1.5pf,w_smd_cap:c_0402,,GRM1555C1H1R5BA01D
+JP1,JUMPER,w_smd_cap:c_0603,,
+L1,4.7nH,w_smd_inductors:inductor_smd_0402,,81-LQW15AN4N7C00D
+L2,10nH,w_smd_inductors:inductor_smd_0402,,994-0402HP-10NXJLU
+C14,100nf,w_smd_cap:c_0402,,81-GRM155R71C104KA88
+C15,100nf,w_smd_cap:c_0402,,81-GRM155R71C104KA88
+L5,10uH,w_smd_inductors:inductor_smd_0603,,963-LK1608100K-T
+L6,15nH,w_smd_inductors:inductor_smd_0402,,81-LQW15AN15NJ00D
+C16,1.0uf,w_smd_cap:c_0402,,81-GRM155R61A105KE15
+Q1,BSS138,w_smd_trans:sot23,,621-DMG2305UX-13
+U5,DMMT5401,w_smd_trans:sot23-6,,621-DMMT5401-7-F
+R12,47k,w_smd_resistors:r_0402,,667-ERJ-2RKF4702X
+R11,10k,w_smd_resistors:r_0402,,71-CRCW0402-10K-E3
