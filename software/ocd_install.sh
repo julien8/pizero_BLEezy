@@ -1,4 +1,10 @@
 #!/bin/bash
+#  --- Usage Instructions ---
+#  $chmod u+x ocd_install.sh
+#  $sudo sh ocd_install.sh
+#  now wait a long time while it builds and installs things
+#
+#
 # Author: Julien M.
 # this script will install the latest version of openOCD on any platform. It will install support for
 # all device interfaces. At the moment ftdi may not work depending on the libusb you have installed
@@ -54,13 +60,9 @@ install_openocd (){
 
 # run through all the steps required for the installation
 install_deps
-echo "Installer: All dependancies installed succesfully"
 clone_openocd
-echo "Installer: openOCD cloned"
 make_openocd
-echo "Installer: openOCD succesfuly built, thanks for waiting"
 install_openocd
-echo "Installer: Installation finished"
 
 # test that it is installed correctly
 command -v openocd >/dev/null 2>&1 || {echo >&2 "openOCD not installed correctly"; exit 1;}
